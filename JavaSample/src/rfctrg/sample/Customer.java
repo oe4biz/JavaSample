@@ -1,9 +1,7 @@
 package rfctrg.sample;
 
 import java.util.ArrayList;
-import java.util.Enumeration;
 import java.util.List;
-import java.util.Vector;
 
 import rfctrg.sample.Rental;
 
