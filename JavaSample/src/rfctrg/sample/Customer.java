@@ -1,4 +1,4 @@
-package refactoring.sample;
+package rfctrg.sample;
 
 import java.util.Enumeration;
 import java.util.Vector;

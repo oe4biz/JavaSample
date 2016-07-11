@@ -1,4 +1,4 @@
-package refactoring.sample;
+package rfctrg.sample;
 
 public class Movie {
 
