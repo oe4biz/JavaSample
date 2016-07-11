@@ -1,17 +1,19 @@
 package rfctrg.sample;
 
+import rfctrg.sample.abst.Price;
+
 public class ChildrensPrice extends Price{
 
 	@Override
-	int getPriceCode() {
+	public int getPriceCode() {
 		return Movie.CHILDRENS;
 	}
 
 	@Override
-	double getCharge(int daysRented) {
-		double result = 1.5;
+	public double getCharge(int daysRented) {
+		double result = 1.25;
 		if (daysRented > 3) {
-			result += (daysRented -3 ) * 1.5;
+			result += (daysRented -3 ) * 1.25;
 		}
 		return result;
 	}

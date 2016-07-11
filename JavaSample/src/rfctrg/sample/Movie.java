@@ -1,5 +1,7 @@
 package rfctrg.sample;
 
+import rfctrg.sample.abst.Price;
+
 public class Movie {
 
 	public static final int CHILDRENS = 2;

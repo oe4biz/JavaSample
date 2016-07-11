@@ -26,7 +26,7 @@ public class Customer {
 		return _name;
 	}
 
-	public String statement() {
+	public String stt() {
 		String result = "Rental Record for " + getName() + "\n";
 		//Enumeration rentals = _rentals.elements();
 		for (Rental rental : this._rentals) {
@@ -42,7 +42,7 @@ public class Customer {
 		return result;
 	}
 
-	public String htmlStatement() {
+	public String htmlStt() {
 		String result = "<H1>Rental Record for <EM>" + getName() + "</EM></H1><p>\n";
 		for (Rental rental : this._rentals) {
 			//この貸し出しに関する数値の表示
